@@ -1,0 +1,42 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do {sim_simulate.do}
+# vsim -lib xil_defaultlib sim_opt 
+# Start time: 11:18:41 on Nov 20,2025
+# Loading work.sim(fast)
+# Loading work.glbl(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cordic_0(cordic_0_arch)#1
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading unisim.muxcy(muxcy_v)#1
+# Loading unisim.xorcy(xorcy_v)#1
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'aclk'.
+#    Time: 0 ps  Iteration: 0  Instance: /sim/u_cordic_0 File: ../../../../radio.srcs/sim_1/new/sim.v Line: 10
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'm_axis_dout_tvalid'.
+#    Time: 0 ps  Iteration: 0  Instance: /sim/u_cordic_0 File: ../../../../radio.srcs/sim_1/new/sim.v Line: 10
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+force -freeze sim:/sim/clk_200m 1 0, 0 {2 ps} -r 5
+run -all
+# End time: 11:32:11 on Nov 20,2025, Elapsed time: 0:13:30
+# Errors: 0, Warnings: 2

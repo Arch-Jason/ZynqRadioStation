@@ -1,0 +1,120 @@
+m255
+K4
+z2
+Z0 !s99 mlopt
+!s11f MIXED_VERSIONS
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jason/Documents/Zynq/radio/radio.sim/sim_1/behav/questa
+Ecordic_0
+Z2 w1763608264
+Z3 DPx14 cordic_v6_0_24 23 cordic_v6_0_24_viv_comp 0 22 fWT_eU^9aZ8klK^ja?JR30
+DEx14 cordic_v6_0_24 14 cordic_v6_0_24 0 22 100UY1DQWW>VemT@zTC=@0
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z7 8../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd
+Z8 F../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd
+l0
+L59 1
+V53RPcZ06DEZSc>dZS>nH_1
+!s100 <?76[@O68@nP0ke0AbXa82
+Z9 OL;C;2024.3;79
+31
+Z10 !s110 1763608718
+!i10b 1
+Z11 !s108 1763608718.000000
+Z12 !s90 -64|-93|-work|xil_defaultlib|../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd|
+Z13 !s107 ../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd|
+!i113 0
+Z14 o-64 -93 -work xil_defaultlib
+Z15 tExplicit 1 CvgOpt 0
+Acordic_0_arch
+R3
+R4
+R5
+R6
+DEx4 work 8 cordic_0 0 22 53RPcZ06DEZSc>dZS>nH_1
+!i122 0
+l140
+L69 122
+VT]3ER>nGiJ^]Fbcdg9W452
+!s100 oD<UF79Wc<_SlZjfR?@XR2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vglbl
+2glbl.v
+R10
+!i10b 1
+!s100 TL<1YD8i05Z]RjCH=O^Cf3
+IEIl9nCH7KnQHNU=hnG=VH2
+R1
+w1741209010
+8glbl.v
+Fglbl.v
+!i122 2
+L0 6 78
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2024.3;79
+r1
+!s85 0
+31
+R11
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z18 tCvgOpt 0
+vsim
+2../../../../radio.srcs/sim_1/new/sim.v
+R10
+!i10b 1
+!s100 70VC44nAX8<m=foBhJcD`0
+I5QD?]<5oLnX7?0R97S9iX1
+R1
+w1763608610
+8../../../../radio.srcs/sim_1/new/sim.v
+F../../../../radio.srcs/sim_1/new/sim.v
+!i122 1
+L0 1 38
+R16
+R17
+r1
+!s85 0
+31
+R11
+!s107 ../../../../radio.srcs/sim_1/new/sim.v|
+!s90 -64|-incr|-mfcu|-work|xil_defaultlib|+incdir+../../../../../../../../../opt/Xilinx/2025.1/data/rsb/busdef|+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/ec67/hdl|+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/6cfa/hdl|+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/f0b6/hdl/verilog|+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/a8e4/hdl/verilog|+incdir+/opt/Xilinx/2025.1/Vivado/data/xilinx_vip/include|../../../../radio.srcs/sim_1/new/sim.v|
+!i113 0
+o-64 -mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -64 -mfcu -work xil_defaultlib +incdir+../../../../../../../../../opt/Xilinx/2025.1/data/rsb/busdef +incdir+../../../../radio.gen/sources_1/bd/system/ipshared/ec67/hdl +incdir+../../../../radio.gen/sources_1/bd/system/ipshared/6cfa/hdl +incdir+../../../../radio.gen/sources_1/bd/system/ipshared/f0b6/hdl/verilog +incdir+../../../../radio.gen/sources_1/bd/system/ipshared/a8e4/hdl/verilog +incdir+/opt/Xilinx/2025.1/Vivado/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R18
+Tsim_opt
+!s110 1763608719
+V>8Hb[@iO1lKbmOQW^lQN32
+04 3 4 work sim fast 0
+04 4 4 work glbl fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2365 
+!s135 nogc
+o-suppress 10016 +acc=npr -L xil_defaultlib -L xbip_utils_v3_0_14 -L c_reg_fd_v12_0_10 -L xbip_dsp48_wrapper_v3_0_7 -L xbip_pipe_v3_0_10 -L c_addsub_v12_0_20 -L mult_gen_v12_0_23 -L axi_utils_v2_0_10 -L cordic_v6_0_24 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib
+R18
+nsim_opt
+OL;O;2024.3;79

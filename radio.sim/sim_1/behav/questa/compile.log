@@ -1,0 +1,32 @@
+Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+vmap xil_defaultlib questa_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 11:18:38 on Nov 20,2025
+vcom -64 -93 -work xil_defaultlib ../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic_0
+-- Compiling architecture cordic_0_arch of cordic_0
+End time: 11:18:38 on Nov 20,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 11:18:38 on Nov 20,2025
+vlog -64 -incr -mfcu -work xil_defaultlib "+incdir+../../../../../../../../../opt/Xilinx/2025.1/data/rsb/busdef" "+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/6cfa/hdl" "+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/f0b6/hdl/verilog" "+incdir+../../../../radio.gen/sources_1/bd/system/ipshared/a8e4/hdl/verilog" "+incdir+/opt/Xilinx/2025.1/Vivado/data/xilinx_vip/include" ../../../../radio.srcs/sim_1/new/sim.v 
+-- Compiling module sim
+
+Top level modules:
+	sim
+End time: 11:18:38 on Nov 20,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 11:18:38 on Nov 20,2025
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 11:18:38 on Nov 20,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

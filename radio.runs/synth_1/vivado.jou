@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Nov 21 10:32:35 2025
+# Process ID         : 2758870
+# Current directory  : /home/jason/Documents/Zynq/radio/radio.runs/synth_1
+# Command line       : vivado -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file           : /home/jason/Documents/Zynq/radio/radio.runs/synth_1/system_wrapper.vds
+# Journal file       : /home/jason/Documents/Zynq/radio/radio.runs/synth_1/vivado.jou
+# Running On         : archlinux
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 3481.607 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33123 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 33123 MB
+# Available Virtual  : 16918 MB
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

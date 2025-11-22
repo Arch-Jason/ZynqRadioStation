@@ -1,0 +1,2 @@
+cordic_0.vhd,vhdl,xil_defaultlib,../../../../radio.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd,incdir="../../../../../../../../../opt/Xilinx/2025.1/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

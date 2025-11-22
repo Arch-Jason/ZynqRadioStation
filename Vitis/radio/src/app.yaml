@@ -1,0 +1,4 @@
+domain_path: /home/jason/Documents/Zynq/radio/Vitis/platform/export/platform/sw/platform
+app_src_dir: /opt/Xilinx/2025.1/Vitis/data/embeddedsw/lib/sw_apps/freertos_hello_world
+template: freertos_hello_world
+lang: c

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/jason/Documents/Zynq/radio/Vitis/platform/export/platform/sw/boot/fsbl.elf
+	/home/jason/Documents/Zynq/radio/Vitis/radio/_ide/bitstream/system_wrapper.bit
+	/home/jason/Documents/Zynq/radio/Vitis/radio/build/radio.elf
+}
